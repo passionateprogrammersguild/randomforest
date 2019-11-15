@@ -1,0 +1,11 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: build
+  image: qnib/pytest:latest
+  commands:
+  - cd src
+  - python setup.py build install
+  - pytest
