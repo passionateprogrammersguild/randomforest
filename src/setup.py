@@ -12,7 +12,7 @@ setup(
     long_description='',
 
     author='NLP Logix',
-    author_email='imichael.mann@nlplogix.com',   
+    author_email='michael.mann@nlplogix.com',   
 
     py_modules=["randomforest.evaluator", "randomforest.node"],
     setup_requires=["pytest-runner"],
